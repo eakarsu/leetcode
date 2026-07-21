@@ -1,3 +1,5 @@
+> **Fork boundary:** this checkout is retained as a pinned, non-executable upstream educational reference. It is not an application or an independently supported NeetCode distribution. See [`REFERENCE_BOUNDARY.json`](REFERENCE_BOUNDARY.json), [`PROVENANCE.md`](PROVENANCE.md), and [`PRODUCT_EXTRACTION_CHECKLIST.md`](PRODUCT_EXTRACTION_CHECKLIST.md). Historical scheduled workflows that wrote to the fork or issues were disabled.
+
 # Leetcode solutions for 🚀 [NeetCode.io](https://neetcode.io)
 > This repo hosts the solutions found on [NeetCode.io](https://neetcode.io) including the solutions shown on the [NeetCode YouTube channel](https://www.youtube.com/c/neetcode). The site will periodically be updated with new solutions from this repo!
 

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "classification": "upstream-educational-reference",
+  "decision": "retain-pinned-fork",
+  "application": false,
+  "executionSupported": false,
+  "deploymentSupported": false,
+  "snapshot": {
+    "configuredOrigin": "https://github.com/eakarsu/leetcode",
+    "commit": "cd4388135ba4bfeb3b145c6ab448828d6a869de0",
+    "upstreamInferredFromHistoryAndReadme": "https://github.com/neetcode-gh/leetcode"
+  },
+  "license": {
+    "identifier": "MIT",
+    "copyright": "Copyright (c) 2022 neetcode-gh",
+    "file": "LICENSE",
+    "sha256": "a38883b60382c74837fce42753736e2efbb663c9458dee74b00e414558ae2c16"
+  },
+  "ownership": {
+    "forkCustodian": "eakarsu",
+    "upstreamMaintainer": "neetcode-gh",
+    "productOwner": null,
+    "securityPatchOwner": null
+  },
+  "supportedContent": "read-only review of individual algorithm solution files under named language directories",
+  "updatePolicy": "no automated upstream writes; owner-reviewed snapshot update with license, inventory, quarantine, and security evidence",
+  "binaryQuarantine": ["xaa", "xab", "xac", "xad", "xae", "xaf", "xag", "xah", "xai", "xaj", "xak", "xal"]
+}

@@ -1,0 +1,9 @@
+# Provenance and support boundary
+
+This repository is a fork/archive of the NeetCode solutions collection. Evidence is the upstream-branded README, long `neetcode-gh`/community commit history, and the MIT license naming `neetcode-gh`. The only configured remote is the fork `https://github.com/eakarsu/leetcode`; an upstream remote is not currently configured. The pinned boundary commit is `cd4388135ba4bfeb3b145c6ab448828d6a869de0` (2024-03-15).
+
+The MIT text and exact copyright notice are preserved in `LICENSE`; its SHA-256 is pinned in `REFERENCE_BOUNDARY.json`. Attribution and the license must accompany copied substantial portions. The fork custodian is not represented as the upstream author, NeetCode service operator, or owner of the problem statements/trademarks. LeetCode problem-statement and platform rights are separate from the solution-code license and must be evaluated by any consumer.
+
+The supported boundary is read-only inspection of individual source files in the 13 named language directories. There is no universal build, runtime, test promise, security SLA, or release artifact. Twelve large root blobs (`xaa` through `xal`, about 292 MB total) were added after much of the upstream history; `xaa` begins with an HDF5 signature and the remaining chunks have no application boundary or provenance manifest. They are quarantined in place to preserve history and must not be concatenated, deserialized, uploaded, or distributed as supported content.
+
+The former scheduled workflows could mutate README/source or issues in the fork with obsolete third-party actions and broad write behavior. Their workflow definitions were removed. Snapshot updates are manual: obtain owner approval, identify the upstream commit, review license/security/change scope, preserve local provenance, rerun boundary checks, and record a new pinned commit. No unattended merge or push is supported.
